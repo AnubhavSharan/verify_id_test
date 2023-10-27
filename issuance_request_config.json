@@ -1,0 +1,24 @@
+{
+  "includeQRCode": true,
+  "callback": {
+    "url": "https://e9e8-2401-4900-4583-a403-bd64-4192-c252-6049.ngrok-free.app/api/issuer/issuanceCallback",
+    "state": "STATEWILLBESETINCODE",
+    "headers": {
+      "api-key": "OPTIONAL API-KEY for ISSUANCE CALLBACK API"
+    }
+  },
+  "authority": "did:web:verifiedid.entra.microsoft.com:6e02fd91-6875-4ecf-a515-75072595bc70:5242e312-c4e9-713c-f2e3-4c0a3a22b9da",
+  "registration": {
+    "clientName": "Verifiable Credential Expert Sample"
+  },
+  "type": "VerifiedCredentialExpert",
+  "manifest": "https://verifiedid.did.msidentity.com/v1.0/tenants/6e02fd91-6875-4ecf-a515-75072595bc70/verifiableCredentials/contracts/49a0f9da-dafd-86fa-a8fa-a3bea1fc2690/manifest",
+  "pin": {
+    "value": "123456",
+    "length": 4
+  },
+  "claims": {
+    "given_name": "FIRSTNAME",
+    "family_name": "LASTNAME"
+  }
+}
